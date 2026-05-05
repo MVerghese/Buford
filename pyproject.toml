@@ -1,0 +1,13 @@
+[project]
+name = "buford"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.10.20"
+dependencies = [
+    "pyserial>=3.5",
+]
+
+[tool.uv.sources]
+torch = { url = "https://pypi.jetson-ai-lab.io/jp6/cu126/+f/37d/7e156cfb4a646/torch-2.10.0-cp310-cp310-linux_aarch64.whl" }
+torchvision = { url = "https://pypi.jetson-ai-lab.io/jp6/cu126/+f/1b6/357c5532db61e/torchvision-0.25.0-cp310-cp310-linux_aarch64.whl" }
